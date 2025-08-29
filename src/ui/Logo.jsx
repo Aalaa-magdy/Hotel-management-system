@@ -6,8 +6,8 @@ const StyledLogo = styled.div`
 `;
 
 const Img = styled.img`
-  height: 9.6rem;
-  width: auto;
+  height: 12rem;
+  width: 12rem;
 `;
 
 function Logo() {
@@ -17,7 +17,7 @@ function Logo() {
 
   return (
     <StyledLogo>
-      <Img src={logo} style={{borderRadius: '80px'}} alt="Logo" />
+      <Img src={logo} style={{borderRadius: '50%'}} alt="Logo" />
       <h1 style={{color: isDarkMode? 'white' : 'black'}}>The Wild Oasis</h1>
     </StyledLogo>
   );
